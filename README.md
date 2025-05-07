@@ -8,12 +8,12 @@ This repository contains resources, scripts, and image data for the MSci BIOS001
   - Contains scripts, pipelines, and configuration files used in image analysis and segmentation.
   - Files include:
     - `inputfile_python_opera_phenix.xlsx`: Excel file for input parameters.
-    - `cellpose_cyto3_img_analysis_mem_zone_0out1in.py`: Script for cell segmentation analysis.
-    - `cellpose_custom_img_analysis_mem_zone_0out1in.py`: Custom script for cell segmentation.
+    - `cellpose_cyto3_img_analysis_mem_zone_0out1in.py`: OperaPhenixPlus pIRES2-mCherry-YFP CFTR fluorescence assay image analysis pipeline using Cellpose (cyto3) segmentation model.
+    - `cellpose_custom_img_analysis_mem_zone_0out1in.py`: OperaPhenixPlus pIRES2-mCherry-YFP CFTR fluorescence assay image analysis pipeline using Custom-trained Cellpose segmentation model.
     - `morphological_analysis_pipeline.py`: Pipeline for morphological analysis.
     - `hyperparameter_gridsearch_pipeline_gpu.py`: GPU-based hyperparameter grid search pipeline.
     - `cellpose_env.yaml`: Environment configuration file (e.g., for Conda).
-    - `custom_cellpose_model.pth`: Pre-trained model file.
+    - `custom_cellpose_model.pth`: Model file.
 
 - **Image_Library**
   - Stores image data and associated files for analysis.
