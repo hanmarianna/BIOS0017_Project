@@ -26,6 +26,6 @@ Temporary Items
 .apdisk
 
 
-Image_Library/
+# Image_Library/
 *.xlsx
 *.pth
