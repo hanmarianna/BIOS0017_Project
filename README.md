@@ -13,7 +13,6 @@ This repository contains resources, scripts, and image data for the MSci BIOS001
     - `morphological_analysis_pipeline.py`: Pipeline for morphological analysis.
     - `hyperparameter_gridsearch_pipeline_gpu.py`: GPU-based hyperparameter grid search pipeline.
     - `cellpose_env.yaml`: Environment configuration file (e.g., for Conda).
-    - `custom_cellpose_model.pth`: Model file.
 
 - **Image_Library**
   - Stores image data and associated files for analysis.
